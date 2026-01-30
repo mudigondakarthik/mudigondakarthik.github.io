@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Karthik Mudigonda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Karthik</span>
+                    <span class="logo-dot">.</span>
+                </a>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="about.html" class="nav-link">About</a></li>
+                        <li><a href="skills.html" class="nav-link">Skills</a></li>
+                        <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                        <li><a href="contact.html" class="nav-link btn-primary-small">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1 class="page-title">Portfolio</h1>
+                <p class="page-subtitle">A collection of successful campaigns and digital transformations</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Tabs -->
+    <section class="portfolio-filters">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Projects</button>
+                <button class="filter-tab" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-tab" data-filter="social">Social Media</button>
+                <button class="filter-tab" data-filter="content">Content Marketing</button>
+                <button class="filter-tab" data-filter="seo">SEO</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid -->
+    <section class="portfolio-section">
+        <div class="container">
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-1"></div>
+                        <div class="portfolio-overlay">
+                            <span class="view-case">View Case Study</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-meta">
+                            <span class="portfolio-category">E-commerce Campaign</span>
+                            <span class="portfolio-date">2024</span>
+                        </div>
+                        <h3 class="portfolio-title">Fashion Brand Digital Transformation</h3>
+                        <p class="portfolio-description">Complete digital overhaul for a struggling fashion retailer, implementing integrated SEO and paid advertising strategy that revitalized online presence.</p>
+                        <div class="portfolio-results">
+                            <div class="result-item">
+                                <span class="result-value">250%</span>
+                                <span class="result-label">Sales Increase</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">180%</span>
+                                <span class="result-label">Traffic Growth</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">65%</span>
+                                <span class="result-label">Lower CPA</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Google Ads</span>
+                            <span>SEO</span>
+                            <span>Email Marketing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="social">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-2"></div>
+                        <div class="portfolio-overlay">
+                            <span class="view-case">View Case Study</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-meta">
+                            <span class="portfolio-category">Social Media Strategy</span>
+                            <span class="portfolio-date">2023</span>
+                        </div>
+                        <h3 class="portfolio-title">Tech Startup Community Building</h3>
+                        <p class="portfolio-description">Launched comprehensive social media strategy for SaaS startup, creating viral content campaigns and strategic influencer partnerships to build engaged community from zero.</p>
+                        <div class="portfolio-results">
+                            <div class="result-item">
+                                <span class="result-value">50K+</span>
+                                <span class="result-label">Followers</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">5M+</span>
+                                <span class="result-label">Total Reach</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">8.5%</span>
+                                <span class="result-label">Engagement Rate</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Instagram</span>
+                            <span>LinkedIn</span>
+                            <span>Content Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="content">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-3"></div>
+                        <div class="portfolio-overlay">
+                            <span class="view-case">View Case Study</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-meta">
+                            <span class="portfolio-category">Content Marketing</span>
+                            <span class="portfolio-date">2024</span>
+                        </div>
+                        <h3 class="portfolio-title">B2B Lead Generation Ecosystem</h3>
+                        <p class="portfolio-description">Developed comprehensive content marketing system for B2B technology firm, combining thought leadership, SEO optimization, and strategic distribution to triple qualified leads.</p>
+                        <div class="portfolio-results">
+                            <div class="result-item">
+                                <span class="result-value">300%</span>
+                                <span class="result-label">Lead Increase</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">40%</span>
+                                <span class="result-label">Lower CPA</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">220%</span>
+                                <span class="result-label">Organic Growth</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Blog Strategy</span>
+                            <span>SEO</span>
+                            <span>Lead Nurturing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="seo">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-4"></div>
+                        <div class="portfolio-overlay">
+                            <span class="view-case">View Case Study</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-meta">
+                            <span class="portfolio-category">SEO Optimization</span>
+                            <span class="portfolio-date">2023</span>
+                        </div>
+                        <h3 class="portfolio-title">Local Business SEO Domination</h3>
+                        <p class="portfolio-description">Transformed local service business visibility through comprehensive SEO strategy, focusing on local search optimization, review management, and content development.</p>
+                        <div class="portfolio-results">
+                            <div class="result-item">
+                                <span class="result-value">450%</span>
+                                <span class="result-label">Organic Traffic</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">#1</span>
+                                <span class="result-label">Local Rankings</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">320%</span>
+                                <span class="result-label">Lead Volume</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Local SEO</span>
+                            <span>GMB Optimization</span>
+                            <span>Review Strategy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-5"></div>
+                        <div class="portfolio-overlay">
+                            <span class="view-case">View Case Study</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-meta">
+                            <span class="portfolio-category">Paid Advertising</span>
+                            <span class="portfolio-date">2024</span>
+                        </div>
+                        <h3 class="portfolio-title">Multi-Platform Ad Scale</h3>
+                        <p class="portfolio-description">Scaled consumer electronics brand across Google and Meta platforms, optimizing campaigns for profitability while maintaining aggressive growth targets.</p>
+                        <div class="portfolio-results">
+                            <div class="result-item">
+                                <span class="result-value">500%</span>
+                                <span class="result-label">Revenue Growth</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">3.8x</span>
+                                <span class="result-label">ROAS</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">55%</span>
+                                <span class="result-label">Lower CPA</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Google Ads</span>
+                            <span>Meta Ads</span>
+                            <span>Retargeting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="content social">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder portfolio-6"></div>
+                        <div class="portfolio-overlay">
+                            <span class="view-case">View Case Study</span>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-meta">
+                            <span class="portfolio-category">Brand Launch</span>
+                            <span class="portfolio-date">2023</span>
+                        </div>
+                        <h3 class="portfolio-title">Wellness Brand Launch Campaign</h3>
+                        <p class="portfolio-description">End-to-end digital launch strategy for wellness startup, creating brand identity, content ecosystem, and integrated marketing campaigns across all channels.</p>
+                        <div class="portfolio-results">
+                            <div class="result-item">
+                                <span class="result-value">Zero</span>
+                                <span class="result-label">to 100K Visitors</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">35K+</span>
+                                <span class="result-label">Email Subscribers</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-value">$2M+</span>
+                                <span class="result-label">First Year Revenue</span>
+                            </div>
+                        </div>
+                        <div class="portfolio-tags">
+                            <span>Brand Strategy</span>
+                            <span>Content Creation</span>
+                            <span>Paid Media</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header centered">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What clients say about working together</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="40" height="32" viewBox="0 0 40 32" fill="none">
+                            <path d="M0 16C0 7.16344 7.16344 0 16 0V8C11.5817 8 8 11.5817 8 16H16V32H0V16Z" fill="currentColor" opacity="0.1"/>
+                            <path d="M24 16C24 7.16344 31.1634 0 40 0V8C35.5817 8 32 11.5817 32 16H40V32H24V16Z" fill="currentColor" opacity="0.1"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"Karthik transformed our digital presence completely. His strategic approach to SEO and content marketing tripled our qualified leads within six months. The attention to detail and commitment to results is exceptional."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>Sarah Thompson</strong>
+                            <span>CEO, TechVision Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="40" height="32" viewBox="0 0 40 32" fill="none">
+                            <path d="M0 16C0 7.16344 7.16344 0 16 0V8C11.5817 8 8 11.5817 8 16H16V32H0V16Z" fill="currentColor" opacity="0.1"/>
+                            <path d="M24 16C24 7.16344 31.1634 0 40 0V8C35.5817 8 32 11.5817 32 16H40V32H24V16Z" fill="currentColor" opacity="0.1"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"Working with Karthik on our paid advertising campaigns was game-changing. He scaled our ad spend from $5K to $50K monthly while improving ROAS. His data-driven approach and creative thinking set him apart."</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>Michael Chen</strong>
+                            <span>Marketing Director, FashionHub</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="40" height="32" viewBox="0 0 40 32" fill="none">
+                            <path d="M0 16C0 7.16344 7.16344 0 16 0V8C11.5817 8 8 11.5817 8 16H16V32H0V16Z" fill="currentColor" opacity="0.1"/>
+                            <path d="M24 16C24 7.16344 31.1634 0 40 0V8C35.5817 8 32 11.5817 32 16H40V32H24V16Z" fill="currentColor" opacity="0.1"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">"Karthik's social media expertise helped us build an engaged community of 50,000+ followers in just one year. His content strategy and execution are both creative and results-focused. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <strong>Priya Sharma</strong>
+                            <span>Founder, WellnessFirst</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Build Your Success Story</h2>
+                <p>Ready to achieve similar results for your brand? Let's discuss your goals.</p>
+                <a href="contact.html" class="btn btn-primary">Start Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <span class="logo-text">Karthik</span>
+                            <span class="logo-dot">.</span>
+                        </a>
+                        <p class="footer-tagline">Building brands through strategic digital excellence</p>
+                    </div>
+                    <nav class="footer-nav">
+                        <div class="footer-nav-group">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="skills.html">Skills & Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav-group">
+                            <h4>Work</h4>
+                            <ul>
+                                <li><a href="portfolio.html">Portfolio</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-nav-group">
+                            <h4>Connect</h4>
+                            <ul class="social-links">
+                                <li><a href="#" target="_blank">LinkedIn</a></li>
+                                <li><a href="#" target="_blank">Instagram</a></li>
+                                <li><a href="#" target="_blank">Twitter</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2026 Karthik Mudigonda. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
