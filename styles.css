@@ -127,6 +127,10 @@ ul {
     color: var(--text-primary);
 }
 
+.footer-logo {
+    color: #ffffff;
+}
+
 .logo-dot {
     color: var(--accent);
     font-size: 2rem;
